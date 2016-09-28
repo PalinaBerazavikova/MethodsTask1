@@ -17,6 +17,12 @@ namespace MethodsPoint
             this.Y = y;
         }
 
+        public Point(double x)
+        {
+            this.X = x;
+            this.Y = x;
+        }
+
 
         public bool Equals(Point point)
         {
